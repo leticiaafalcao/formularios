@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Formulário</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Envio</h1>
+    
+    </header>
+
+    <main>
+        <form action="ex2.html" method="post" enctype="multipart/form-data"></form>
+        
+        <label>Nome: </label>
+    
+            <input type="text" name="name" id="name" required>
+            <br>
+            <br>
+            <label>Email: </label>
+            
+            <input type="text" name="email" id="email" required>
+            <br>
+            <br>
+            <label>Senha: </label>
+            
+            <input type="password" name="password" id="password" required>
+            <br><br>
+            
+
+            <label>Selecione um arquivo: </label>
+            <input type="file" name="file" id="file" accept=".png, .jpg, .jpeg" multiple>
+           
+           <br><br>
+           <label>Escolha uma opção de envio: </label>
+           <br>
+            <input type="radio" name="option1" id="option1" value="1"  required>Expresso
+            <br>
+            <input type="radio" name="option1" id="option1" value="2" checked required>Padrão
+            <br>
+            <input type="radio" name="option3" id="option3" value="1"  required>Econômico
+<br>           
+<br>
+<label> </label>
+<input type="checkbox" name="math" id="math" >Aceito os termos e condições
+<br>
+<br>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Limpar">
+
+                    
+</form>
+
+
+    </main>
+</body>
+
+</html>
